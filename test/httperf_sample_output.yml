@@ -1,0 +1,75 @@
+---
+- total_connections: 20000
+  test_duration: 592.676
+  connections_per_sec: 33.7
+  min_ms_per_connection: 10.8
+  avg_ms_per_connection: 29.6
+  max_ms_per_connection: 11652.5
+  median_ms_per_connection: 11.5
+  stddev_ms_per_connection: 217.1
+  request_rate_per_sec: 33.7
+  ms_per_request: 29.6
+  min_ms_per_request: 0.0
+  avg_ms_per_request: 33.7
+  max_ms_per_request: 76.2
+  stddev_ms_per_request: 19.3
+  reply_time_response: 2.1
+  raw_output: ! 'Maximum connect burst length: 1
+
+    Total: connections 20000 requests 20000 replies 20000 test-duration 592.676 s
+
+    Connection rate: 33.7 conn/s (29.6 ms/conn, <=1 concurrent connections)
+    Connection time [ms]: min 10.8 avg 29.6 max 11652.5 median 11.5 stddev 217.1
+    Connection time [ms]: connect 27.6
+    Connection length [replies/conn]: 1.000
+
+    Request rate: 33.7 req/s (29.6 ms/req)
+    Request size [B]: 73.0
+
+    Reply rate [replies/s]: min 0.0 avg 33.7 max 76.2 stddev 19.3 (118 samples)
+    Reply time [ms]: response 2.1 transfer 0.0
+    Reply size [B]: header 215.0 content 6.0 footer 0.0 (total 221.0)
+    Reply status: 1xx=0 2xx=20000 3xx=0 4xx=0 5xx=0
+
+    CPU time [s]: user 197.28 system 394.31 (user 33.3% system 66.5% total 99.8%)
+    Net I/O: 9.7 KB/s (0.1*10^6 bps)
+
+    Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+    Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0'
+- total_connections: 20000
+  test_duration: 350.422
+  connections_per_sec: 57.1
+  min_ms_per_connection: 10.9
+  avg_ms_per_connection: 17.5
+  max_ms_per_connection: 3027.5
+  median_ms_per_connection: 11.5
+  stddev_ms_per_connection: 105.9
+  request_rate_per_sec: 57.1
+  ms_per_request: 17.5
+  min_ms_per_request: 6.4
+  avg_ms_per_request: 57.0
+  max_ms_per_request: 80.6
+  stddev_ms_per_request: 19.9
+  reply_time_response: 1.2
+  raw_output: ! 'Maximum connect burst length: 1
+
+    Total: connections 20000 requests 20000 replies 20000 test-duration 350.422 s
+
+    Connection rate: 57.1 conn/s (17.5 ms/conn, <=1 concurrent connections)
+    Connection time [ms]: min 10.9 avg 17.5 max 3027.5 median 11.5 stddev 105.9
+    Connection time [ms]: connect 16.3
+    Connection length [replies/conn]: 1.000
+
+    Request rate: 57.1 req/s (17.5 ms/req)
+    Request size [B]: 73.0
+
+    Reply rate [replies/s]: min 6.4 avg 57.0 max 80.6 stddev 19.9 (70 samples)
+    Reply time [ms]: response 1.2 transfer 0.0
+    Reply size [B]: header 215.0 content 6.0 footer 0.0 (total 221.0)
+    Reply status: 1xx=0 2xx=20000 3xx=0 4xx=0 5xx=0
+
+    CPU time [s]: user 141.21 system 208.21 (user 40.3% system 59.4% total 99.7%)
+    Net I/O: 16.4 KB/s (0.1*10^6 bps)
+
+    Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+    Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0'
