@@ -32,7 +32,7 @@ httperf is run from the command line outputs information like this:
 
 httperf is great, but if you're running more than a few tests and need to log the output (in a database or spreadsheet etc.) then copy/pasting the values from this output becomes tedious. I wrote HttperfOutputParser to make it easier to get these values in machine readable/processable form.
 
-Currently I'm parsing out these values because those are what I need:
+Currently I'm parsing out these values because these are what I need:
 
     Total connections
     Total time (s)
