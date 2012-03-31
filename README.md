@@ -70,33 +70,33 @@ Or install it yourself as:
 ## Usage
 
 ``` ruby
-    require 'httperf-output-parser'
-    parser = HttperfOutputParser.new
+require 'httperf-output-parser'
+parser = HttperfOutputParser.new
 	
-    # Pass the parser a string
-    results = parser.parse(STDIN.read)
+# Pass the parser a string
+results = parser.parse(STDIN.read)
 	
-    # Result will just be a hash
-    puts results.inspect
+# Result will just be a hash
+puts results.inspect
 	
-    # with the hash we can do something with the data, like create a CSV:
-    puts %w{
-        total_connections
-        test_duration
-        connections_per_sec
-        min_ms_per_connection
-        avg_ms_per_connection
-        max_ms_per_connection
-        median_ms_per_connection
-        stddev_ms_per_connection
-        request_rate_per_sec
-        ms_per_request
-        min_ms_per_request
-        avg_ms_per_request
-        max_ms_per_request
-        stddev_ms_per_request
-        reply_time_response
-    }.map {|dt| results[dt.to_sym]}.join "\t"
+# with the hash we can do something with the data, like create a CSV:
+puts %w{
+    total_connections
+    test_duration
+    connections_per_sec
+    min_ms_per_connection
+    avg_ms_per_connection
+    max_ms_per_connection
+    median_ms_per_connection
+    stddev_ms_per_connection
+    request_rate_per_sec
+    ms_per_request
+    min_ms_per_request
+    avg_ms_per_request
+    max_ms_per_request
+    stddev_ms_per_request
+    reply_time_response
+}.map {|dt| results[dt.to_sym]}.join "\t"
 ```
 
 ## Contributing
