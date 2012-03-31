@@ -1,5 +1,7 @@
 # HttperfOutputParser
 
+HttperfOutputParser is a gem for parsing the output of httperf.
+
 > [Httperf](http://code.google.com/p/httperf/) is a tool for measuring web server performance. It provides a flexible facility for generating various HTTP workloads and for measuring server performance.
 
 httperf is run from the command line outputs information like this:
